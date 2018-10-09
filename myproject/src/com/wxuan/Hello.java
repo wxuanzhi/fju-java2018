@@ -15,6 +15,14 @@ public class Hello {
         System.out.println(height);
         System.out.println(name);
         System.out.println(schoolYear);
+        
+        Person p = new Person(47f,1.534f);
+        p.weight = 47f;
+        p.height = 1.534f;
+        System.out.println(p.bmi());
+        p.hello();
+//        Person jack = null;
+//        jack.hello();
 
         		
 	}
