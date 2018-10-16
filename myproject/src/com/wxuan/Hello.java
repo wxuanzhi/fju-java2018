@@ -24,12 +24,18 @@ public class Hello {
 //        Person jack = null;
 //        jack.hello();
         
-System.out.println(wxuan" 70 80 90");
-String name = "wxuan";
-int english = 70;
-int math = 90;
-System.out.println(name + "\t" + english + "\t" + math + "\t" + (english+math)/2)
-		
+        System.out.println(wxuan" 70 80 90");
+        String name = "wxuan";
+        int english = 70;
+        int math = 90;
+        System.out.println(name + "\t" + english + "\t" + math + "\t" + (english+math)/2)
+
+        Student stu = new Student();
+        stu.name = "wxuan";
+        stu.english = 70;
+        stu.math = 90;
+        stu.print();
+        System.out.println (3 <= 5);
 
         		
 	}
