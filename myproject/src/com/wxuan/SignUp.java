@@ -9,8 +9,20 @@ public class SignUp {
         Scanner scanner = new Scanner(System.in);
         String line = scanner.nextLine();
         
-        System.out.println("*"+line"*");
+        System.out.println("*"+line+"*");
         boolean adult = line.toUpperCase().equals("Y");
-        System.out.println(adult);
+        if (adult) {
+        	System.out.print("Your age?");
+        	int age = scanner.nextInt();
+        	scanner.nextInt();
+        	System.out.print("Your name?");
+        	String name = scanner.nextLine();
+        	System.out.print("Your nick name?")
+        	String.nickName = scanner.nextLine();
+        	System.out.println(age+"/"+name+"/"+nickName);
+        	
+        } else {
+        	System.out.println("Thank you,bye");
+        }
 	}
 }
