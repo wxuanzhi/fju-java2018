@@ -1,11 +1,21 @@
 package com.wxuan;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Your name");
+        String name = Scanner.nextline();
+        System.out.println(name);
+		
+		
+		
+		
+		
         System.out.println("Hello World");
-        int age = 18;
+        /*int age = 18;
         float weight = 47f;
         float height = 153.4f;
         String name = "Wxuanzhi";
@@ -14,7 +24,7 @@ public class Hello {
         System.out.println(weight);
         System.out.println(height);
         System.out.println(name);
-        System.out.println(schoolYear);
+        System.out.println(schoolYear);*/
         
         Person p = new Person(47f,1.534f);
         p.weight = 47f;
